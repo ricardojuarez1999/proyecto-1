@@ -8,6 +8,8 @@ def prob_3(b,p):
 		b = b*b1
 	return b
 def prob_4(a,c):
-	lista = [a]
-	t = lista.split()
-	return t
+	letras = a
+	le = float(len(letras))
+	an = "* "
+	re = an*((c/2.0)-le)
+	return (re+a+re) 
